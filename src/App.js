@@ -152,9 +152,10 @@ const App = () => {
           minDate={startDate}  
         />
       </div>
-
+      
       {bookingData.length > 0 ? (
         <>
+        
           <div className="chart-container">
             <Chart
               options={{
@@ -168,7 +169,7 @@ const App = () => {
                 },
                 
                 title: {
-                  text: 'Visitors Over Time',
+                  text: 'Time Series:  Number of visitors per day',
                   align: 'left'
                 },
                 xaxis: {
@@ -236,6 +237,10 @@ const App = () => {
                         enabled: true, 
                       },
                     },
+                    title: {
+                      text: 'Column Chart: Number of visitors per country',
+                      align: 'left'
+                    },
                     xaxis: {
                       categories: sortedCountryNames, 
                       title: { text: 'Country' },
@@ -272,12 +277,12 @@ const App = () => {
                   }}
                   series={[{ name: 'Visitors', data: sortedCountryVisitors }]} 
                   type="bar"
-                  height={350}
+                  height={400}
                 />
               );
             })()}
           </div>
-
+<div><h2>Sparkline Charts:</h2></div>
           <div className='sparkline-row'>
   <div className='sparkline'>
     <Chart
