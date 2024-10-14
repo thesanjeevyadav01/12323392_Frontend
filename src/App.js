@@ -59,7 +59,7 @@ const App = () => {
           booking.arrival_date_day_of_month
         )
       ).toISOString().split('T')[0];
-
+      
       const count = booking[key];
 
       if (!acc[dateKey]) {
