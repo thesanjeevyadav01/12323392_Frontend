@@ -82,11 +82,6 @@ The data is parsed using **Papa Parse** and then displayed through various chart
 - Implement data export functionality to download filtered results as CSV.
 - Enhance error handling and improve performance for larger datasets.
 
-## Screenshots
-
-![Dashboard](Screenshot 2024-10-14 150818.png)
-
-
 
 ## Contact
 
