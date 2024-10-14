@@ -84,7 +84,7 @@ The data is parsed using **Papa Parse** and then displayed through various chart
 
 ## Screenshots
 
-![Dashboard](./Screenshot 2024-10-14 150818.png)
+![Dashboard](Screenshot 2024-10-14 150818.png)
 
 
 
