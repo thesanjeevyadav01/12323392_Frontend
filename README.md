@@ -28,7 +28,7 @@ This project is a web-based **Hotel Booking Dashboard** that visualizes hotel bo
 
 1. Clone this repository to your local machine:
     ```bash
-    git clone https://github.com/yourusername/hotel-booking-dashboard.git
+    git clone https://github.com/thesanjeevyadav01/12323392_Frontend.git
     ```
    
 2. Navigate into the project directory:
@@ -84,12 +84,10 @@ The data is parsed using **Papa Parse** and then displayed through various chart
 
 ## Screenshots
 
-_Include some screenshots of the dashboard here to give users a visual reference._
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 ## Contact
 
-If you have any questions or suggestions, feel free to reach out at [your-email@example.com](mailto:your-email@example.com).
+If you have any questions or suggestions, feel free to reach out at [thesanjeevyadav01@gmail.com](mailto:thesanjeevyadav01@gmail.com).
