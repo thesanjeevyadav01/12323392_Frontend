@@ -117,8 +117,8 @@ const App = () => {
   const filteredAdultsData = filterDataByDateRange(adultsData);
   const filteredChildrenData = filterDataByDateRange(childrenData);
 
-  const totalAdults = bookingData.reduce((acc, booking) => acc + booking.adults, 0);
-  const totalChildren = bookingData.reduce((acc, booking) => acc + booking.children, 0);
+ const totalAdults = filteredAdultsData.reduce((acc, dataPoint) => acc + dataPoint.y, 0);
+const totalChildren = filteredChildrenData.reduce((acc, dataPoint) => acc + dataPoint.y, 0);
 
   //here i've checked the data is being calculating properly or not
   // console.log(totalAdults);
